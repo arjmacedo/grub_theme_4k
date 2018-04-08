@@ -1,0 +1,57 @@
+#StylishDark grub2 theme
+
+desktop-image: "background.jpg"
+
+title-text: ""
+
+terminal-box: "terminal_box_*.png"
+terminal-font: "Gnu Unifont Mono Regular 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 33%
+  width = 50%
+  top = 25%
+  height = 50%	
+
+  item_font = "DejaVu Sans Bold 28"
+  item_color = "#bbbbbb"
+  item_height = 32
+  item_icon_space = 8
+  item_spacing = 2
+
+  selected_item_font = "DejaVu Sans Bold 28"
+  selected_item_color= "#ffffff"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 32
+  icon_width = 32
+
+  scrollbar = true
+  scrollbar_width = 20
+  scrollbar_thumb = "slider_*.png"
+}
+
++ vbox {
+ left = 33%+32
+ top = 81%
+ width = 50%-32
+ + label { text = "Controls" color = "#bbbbbb" font = "DejaVu Sans Bold 28" }
+ + label { text = "- Pressing 'E' will allow you to edit the currently selected menu entry." color = "#bbbbbb" font = "DejaVu Sans Regular 24" }
+ + label { text = "- Pressing 'C' will bring you to a command line for GRUB where you can perform various tasks. " color = "#bbbbbb" font = "DejaVu Sans Regular 24" }
+ + label { text = "" color = "#bbbbbb" font = "DejaVu Sans Regular 24" }
+ }
++ label {  
+ left = 0% 
+ top =91%
+ width = 100% 
+ align = "center"
+ id = "__timeout__" 
+ text = "Booting in %d seconds."
+ color = "#bbbbbb"
+ font = "DejaVu Sans Bold 28"
+}
