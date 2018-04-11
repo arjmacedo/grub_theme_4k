@@ -20,9 +20,9 @@ terminal-border: "0"
 
   item_font = "DejaVu Sans Bold 28"
   item_color = "#bbbbbb"
-  item_height = 32
-  item_icon_space = 8
-  item_spacing = 2
+  item_height = 64
+  item_icon_space = 12 
+  item_spacing = 4
 
   selected_item_font = "DejaVu Sans Bold 28"
   selected_item_color= "#ffffff"
@@ -32,14 +32,14 @@ terminal-border: "0"
   icon_width = 32
 
   scrollbar = true
-  scrollbar_width = 20
+  scrollbar_width = 40
   scrollbar_thumb = "slider_*.png"
 }
 
 + vbox {
- left = 33%+32
+ left = 33%+64
  top = 81%
- width = 50%-32
+ width = 50%-64
  + label { text = "Controls" color = "#bbbbbb" font = "DejaVu Sans Bold 28" }
  + label { text = "- Pressing 'E' will allow you to edit the currently selected menu entry." color = "#bbbbbb" font = "DejaVu Sans Regular 24" }
  + label { text = "- Pressing 'C' will bring you to a command line for GRUB where you can perform various tasks. " color = "#bbbbbb" font = "DejaVu Sans Regular 24" }
