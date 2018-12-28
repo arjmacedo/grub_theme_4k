@@ -1,6 +1,6 @@
-# grub_theme_4k
+# grub_theme_hidpi
 
-Modified stylishdark GRUB theme configured for 4k display
+Modified stylishdark GRUB theme configured for hidpi display
 
 ## Adding theme
 
