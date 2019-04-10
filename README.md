@@ -1,6 +1,6 @@
 # grub_theme_hidpi
 
-Modified stylishdark GRUB theme configured for hidpi display
+Modified [stylishdark](https://www.gnome-look.org/p/1009237/) GRUB theme configured for hidpi display
 
 ## Adding theme
 
